@@ -1,0 +1,36 @@
+{
+  "name": "@bloomscorp/ngx-google-tag-manager",
+  "version": "1.0.0",
+  "description": "SSR-safe Google Tag Manager integration for Angular 18+ (and the latest Angular). Drop-in compatible with angular-google-tag-manager, but never touches the global window/document — works with both @nguniversal/express-engine (legacy SSR) and @angular/ssr (modern SSR).",
+  "keywords": [
+    "angular",
+    "google-tag-manager",
+    "gtm",
+    "ssr",
+    "server-side-rendering",
+    "angular-ssr",
+    "nguniversal",
+    "analytics"
+  ],
+  "author": "Bloomscorp",
+  "license": "MIT",
+  "homepage": "https://github.com/bloomscorp/ngx-google-tag-manager#readme",
+  "bugs": {
+    "url": "https://github.com/bloomscorp/ngx-google-tag-manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloomscorp/ngx-google-tag-manager.git"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=18.0.0",
+    "@angular/core": ">=18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,10 @@
+/dist
+/out-tsc
+/tmp
+/node_modules
+npm-debug.log
+yarn-error.log
+.angular/
+*.tsbuildinfo
+.DS_Store
+.idea/

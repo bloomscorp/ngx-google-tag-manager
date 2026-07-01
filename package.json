@@ -1,0 +1,26 @@
+{
+  "name": "ngx-google-tag-manager-workspace",
+  "version": "1.0.0",
+  "description": "Workspace for building @bloomscorp/ngx-google-tag-manager (SSR-safe GTM for Angular 18+).",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build ngx-google-tag-manager",
+    "build:prod": "ng build ngx-google-tag-manager --configuration production",
+    "pack:lib": "cd dist/ngx-google-tag-manager && npm pack",
+    "publish:lib": "npm publish dist/ngx-google-tag-manager --access public"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.0",
+    "@angular/cli": "^18.2.0",
+    "@angular/common": "^18.2.0",
+    "@angular/compiler": "^18.2.0",
+    "@angular/compiler-cli": "^18.2.0",
+    "@angular/core": "^18.2.0",
+    "ng-packagr": "^18.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.6.0",
+    "typescript": "~5.5.0",
+    "zone.js": "~0.14.0"
+  }
+}

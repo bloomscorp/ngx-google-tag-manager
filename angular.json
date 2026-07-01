@@ -1,0 +1,30 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ngx-google-tag-manager": {
+      "projectType": "library",
+      "root": "projects/ngx-google-tag-manager",
+      "sourceRoot": "projects/ngx-google-tag-manager/src",
+      "prefix": "gtm",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-google-tag-manager/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-google-tag-manager/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-google-tag-manager/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        }
+      }
+    }
+  }
+}
