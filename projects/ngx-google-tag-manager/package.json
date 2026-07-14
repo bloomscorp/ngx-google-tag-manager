@@ -1,6 +1,6 @@
 {
   "name": "@bloomscorp/ngx-google-tag-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SSR-safe Google Tag Manager integration for Angular 18+ (and the latest Angular). Drop-in compatible with angular-google-tag-manager, but never touches the global window/document — works with both @nguniversal/express-engine (legacy SSR) and @angular/ssr (modern SSR).",
   "keywords": [
     "angular",
